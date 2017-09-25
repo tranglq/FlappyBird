@@ -11,13 +11,13 @@ public class PlayerController : MonoBehaviour {
     void Update () {
         float moveVertical = Input.GetAxis("Vertical");
 
-        Vector2 movement = new Vector2(0.0f, moveVertical);
+        Vector2 movement = new Vector2(-2f, moveVertical);
 
         GetComponent<Rigidbody2D>().velocity = movement * speed; // GetComponent<Rigidbody2D>().drag;
 
         GetComponent<Rigidbody2D>().position = new Vector2
         (
-            0.0f,
+            -2f,
             Mathf.Clamp(GetComponent<Rigidbody2D>().position.y, yMin, yMax)
         );
 	}
