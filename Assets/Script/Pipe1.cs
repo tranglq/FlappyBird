@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class Pipe1 : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject exploision;
+    public GameObject playerExploision;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(gameObject.tag == "Pipe")
+        {
+            return;
+        }
+
+        Instantiate(exploision, transform.position, transform.rotation);
+        if(gameObject.tag == "Player")
+        {
+            Instantiate(playerExploision, transform.position, transform.rotation);
+//            GameController.GameOver();
+        }
+
+        
+    }
 }
