@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\Pipe1.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
   </ItemGroup>
