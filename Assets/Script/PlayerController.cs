@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour {
     public float yMin, yMax;
     public float speed;
 
-    private bool isDead = false;
-    private GameController gameController;
+ //   private bool isDead = false;
+ //   private GameController gameController;
 
 
     void Update () {
@@ -26,11 +26,11 @@ public class PlayerController : MonoBehaviour {
         );            
 	}
 
-    private void OnCollisionEnter2D(Collision2D other)
+ /*   private void OnCollisionEnter2D(Collision2D other)
     {
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         isDead = true;
         gameController.IsDead();
 
-    }
+    } */
 }
