@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 
@@ -8,9 +9,16 @@ public class PlayerController : MonoBehaviour {
     public float yMin, yMax;
     public float speed;
 
- //   private bool isDead = false;
- //   private GameController gameController;
 
+    private Rigidbody2D rb;
+    
+
+    //   private bool isDead = false;
+    //   private GameController gameController;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     void Update () {
 
@@ -18,19 +26,27 @@ public class PlayerController : MonoBehaviour {
         float moveVertical = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(-0.0f, moveVertical);        //Fixed position x of player and moves on position y
-        GetComponent<Rigidbody2D>().velocity = movement * speed;    //Calculation velocity of bird 
-        GetComponent<Rigidbody2D>().position = new Vector2
+        rb.velocity = movement * speed;    //Calculation velocity of bird 
+
+        //Setting limited position
+        rb.position = new Vector2
         (
             -0.0f,
-            Mathf.Clamp(GetComponent<Rigidbody2D>().position.y, yMin, yMax)
+            Mathf.Clamp(rb.position.y, yMin, yMax)
         );            
 	}
 
- /*   private void OnCollisionEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        isDead = true;
-        gameController.IsDead();
+        if (other.gameObject.CompareTag("Pipe"))
+        {
+            Debug.Log("collision!");
+            rb.velocity = new Vector2(0, 0);
+            GameController.GameOver();
 
-    } */
+        }
+    }
+
+
+
 }
