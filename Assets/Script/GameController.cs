@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
+    public static GameController gameController;
     public GameObject pipe1, pipe2;
+    public GameObject player;
     public Vector2 scrollValuePipe;
 
     public int pipeCount;
     public float scrollWait;
     public float startWait;
     public float pipeWait;
+    public TextMesh textM;
+    public TextMesh textScore;
 
-    public bool isDead = false;
+    public bool isDead;
+
+    private int score = 0;
 
 	void Start () {
         StartCoroutine(ScrollPipe());
-        GetComponent<TextMesh>().text = "";
-
+        textM.text = "";
+        isDead = false;
+     //   TextScore();
     }
 
     IEnumerator ScrollPipe()
@@ -38,6 +45,14 @@ public class GameController : MonoBehaviour {
                 Instantiate(pipe1, pipe1Position, pipe1_2Rotation);     //Create a new pipe1 object with position = pipe1Position and rotation = pipe1_2Rotation
                 Instantiate(pipe2, pipe2Position, pipe1_2Rotation);     //Create a new pipe2 object with position = pipe2Position and rotation = pipe1_2Rotation
 
+                if((player.transform.position.x == pipe1.transform.position.x) && (i > 0))
+                {
+                    Debug.Log("score1");
+                    score = score + 1;
+                    Debug.Log("score2");
+                    TextScore();
+                    Debug.Log("score3");
+                }
                 yield return new WaitForSeconds(scrollWait);
             }
             yield return new WaitForSeconds(pipeWait);
@@ -46,9 +61,18 @@ public class GameController : MonoBehaviour {
        
     }
 
+    public void TextScore()
+    {
+        textScore.text = "Score: " + score;
+    }
+
     public void GameOver()
     {
+        
+        textM.text = "GameOver!!";
+        Debug.Log("GameOver!");
         isDead = true;
-        GetComponent<TextMesh>().text = "GameOver!!";
+        Debug.Log("isDead is true");
+        Time.timeScale = 0;
     }
 }

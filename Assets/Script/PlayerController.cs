@@ -5,19 +5,18 @@ using UnityEngine;
 
 
 
+
 public class PlayerController : MonoBehaviour {
     public float yMin, yMax;
     public float speed;
-
+    public GameController gameController;
 
     private Rigidbody2D rb;
     
-
-    //   private bool isDead = false;
-    //   private GameController gameController;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+       
     }
 
     void Update () {
@@ -36,13 +35,13 @@ public class PlayerController : MonoBehaviour {
         );            
 	}
 
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Pipe"))
         {
+            gameController.GameOver();
             Debug.Log("collision!");
-            rb.velocity = new Vector2(0, 0);
-            GameController.GameOver();
 
         }
     }
