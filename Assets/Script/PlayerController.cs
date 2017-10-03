@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour {
     public float tilt;
     public GameController gameController;
 
-    private float yRotation;
     private Rigidbody2D rb;
+    private Vector2 movement;
     
     private void Start()
     {
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
         //Declare input value
         float moveVertical = Input.GetAxis("Vertical");
 
-        Vector2 movement = new Vector2(-0.0f, moveVertical);        //Fixed position x of player and moves on position y
+        movement = new Vector2(-0.0f, moveVertical);        //Fixed position x of player and moves on position y
         rb.velocity = movement * speed;    //Calculation velocity of bird 
 
         //Setting limited position
@@ -38,16 +38,19 @@ public class PlayerController : MonoBehaviour {
 
         if(Input.anyKeyDown)
         {
-            yRotation += Input.GetAxis("Horizontal");
-            rb.transform.eulerAngles = new Vector3(0, yRotation, 0);
-            rb.transform.eulerAngles = new Vector3(0, 0, 0);
+            Rotate(tilt, movement);
         }
         else
         {
-            rb.transform.Rotate(Vector2.down * Time.deltaTime);
+            Rotate(-tilt, movement);
         }
     }
 
+    void Rotate(float tilt, Vector2 movement)
+    {
+        Vector3 movement3D = movement;
+        transform.rotation = Quaternion.Euler(0.0f, 0.0f, -tilt * movement3D.y * speed);
+    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
