@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour {
         float moveVertical = Input.GetAxis("Vertical");
 
         movement = new Vector2(-0.0f, moveVertical);        //Fixed position x of player and moves on position y
-        rb.velocity = movement * speed;    //Calculation velocity of bird 
+        rb.velocity = movement * speed;                     //Calculation velocity of bird 
 
         //Setting limited position
         rb.position = new Vector2
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Pipe"))
+        if ((other.gameObject.CompareTag("Pipe")) || (other.gameObject.CompareTag("Brick")))
         {
             gameController.GameOver();
             Debug.Log("collision!");

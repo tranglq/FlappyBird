@@ -17,33 +17,7 @@ Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityE
 Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.884 seconds
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
-<RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
-<RI> Input initialized.
-Initialize engine version: 5.6.1p3 (ede8e3f4adbd)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 10.0]
-    Renderer: Intel(R) HD Graphics (ID=0x46)
-    Vendor:   Intel
-    VRAM:     944 MB
-    Driver:   8.15.10.2900
-Begin MonoManager ReloadAssembly
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.090 seconds
+- Completed reload, in  0.039 seconds
 Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\unity\FlappyBird\FlappyBird\FlappyBird_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -55,7 +29,7 @@ The referenced script on this Behaviour (Game Object 'pipe1') is missing!
  
 (Filename:  Line: 1743)
 
-UnloadTime: 3.890670 ms
+UnloadTime: 4.064495 ms
 Failed to create agent because there is no valid NavMesh
  
 (Filename:  Line: 598)
@@ -72,30 +46,29 @@ The referenced script on this Behaviour (Game Object 'pipe1') is missing!
  
 (Filename:  Line: 1743)
 
-GameOver!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 1743)
 
-isDead is true
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-collision!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 520 -> priority: 1 
-  Thread -> id: 17d4 -> priority: 1 
-<RI> Initialized touch support.
 The referenced script on this Behaviour (Game Object 'pipe1') is missing!
  
 (Filename:  Line: 1743)
 
-UnloadTime: 3.380179 ms
-Failed to create agent because there is no valid NavMesh
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
  
-(Filename:  Line: 598)
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 The referenced script on this Behaviour (Game Object '<null>') is missing!
  
@@ -109,6 +82,318 @@ The referenced script on this Behaviour (Game Object 'pipe1') is missing!
  
 (Filename:  Line: 1743)
 
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'pipe1') is missing!
+ 
+(Filename:  Line: 1743)
+
+score1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+score3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 GameOver!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -122,5 +407,5 @@ collision!
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: fa8 -> priority: 1 
-  Thread -> id: 1664 -> priority: 1 
+  Thread -> id: 1974 -> priority: 1 
+  Thread -> id: 6e4 -> priority: 1 
